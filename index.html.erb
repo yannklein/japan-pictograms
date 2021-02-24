@@ -44,7 +44,7 @@
             <% ['xs', 'sm', 'md', 'lg', 'xl'].each do |size| -%>
             <tr>
               <td><%= size %></td>
-              <td><code>&lt;span class="jpic-<%= size -%> jpic-<%= pictos[0][:name] -%>"&gt;</code></span></td>
+              <td><code>&lt;span class="jpic-<%= size -%> jpic-<%= pictos[0][:name] -%>"&gt;&lt;/span&gt;</code></span></td>
               <td><span class="jpic-<%= size -%> jpic-<%= pictos[0][:name] -%>"></span></td>
             </tr>
             <% end -%>
@@ -64,7 +64,7 @@
             <% pictos_hash[:pictos].each do |picto| -%>
             <tr>
               <td><%= picto[:name] %></td>
-              <td><code>&lt;span class="jpic-md jpic-<%= picto[:name] -%>"&gt;</code></span></td>
+              <td><code>&lt;span class="jpic-md jpic-<%= picto[:name] -%>"&gt;&lt;/span&gt;</code></span></td>
               <td><span class="jpic-md jpic-<%= picto[:name] -%>"></span></td>
             </tr>
             <% end -%>
