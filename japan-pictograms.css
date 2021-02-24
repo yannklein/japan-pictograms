@@ -1,8 +1,8 @@
-.jpic-xs { width: 16px; height: 16px; display: block; }
-.jpic-sm { width: 24px; height: 24px; display: block; }
-.jpic-md { width: 32px; height: 32px; display: block; }
-.jpic-lg { width: 48px; height: 48px; display: block; }
-.jpic-xl { width: 64px; height: 64px; display: block; }
+.jpic-xs { width: 16px; height: 16px; display: inline-block; }
+.jpic-sm { width: 24px; height: 24px; display: inline-block; }
+.jpic-md { width: 32px; height: 32px; display: inline-block; }
+.jpic-lg { width: 48px; height: 48px; display: inline-block; }
+.jpic-xl { width: 64px; height: 64px; display: inline-block; }
 
 .jpic-takushi:before { content: url(pictos/T_TAKUSHI.svg); }
 .jpic-ise-ebi:before { content: url(pictos/F_ISE-EBI.svg); }
