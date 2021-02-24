@@ -11,6 +11,7 @@
 .jpic-shijimi:before { content: url(pictos/F_SHIJIMI.svg); }
 .jpic-sawaruna:before { content: url(pictos/B_SAWARUNA.svg); }
 .jpic-rafuteingu:before { content: url(pictos/N_RAFUTEINGU.svg); }
+.jpic-nihon-teien:before { content: url(pictos/H_NIHON-TEIEN.svg); }
 .jpic-matcha:before { content: url(pictos/F_MATCHA.svg); }
 .jpic-kakigori:before { content: url(pictos/F_KAKIGORI.svg); }
 .jpic-genseirin:before { content: url(pictos/N_GENSEIRIN.svg); }
@@ -57,6 +58,7 @@
 .jpic-shokaki:before { content: url(pictos/B_SHOKAKI.svg); }
 .jpic-bokujo:before { content: url(pictos/N_BOKUJO.svg); }
 .jpic-kaidan:before { content: url(pictos/B_KAIDAN.svg); }
+.jpic-kanko-ressha:before { content: url(pictos/T_KANKO-RESSHA.svg); }
 .jpic-sakyu:before { content: url(pictos/N_SAKYU.svg); }
 .jpic-suteruna:before { content: url(pictos/B_SUTERUNA.svg); }
 .jpic-okonomiyaki:before { content: url(pictos/F_OKONOMIYAKI.svg); }
@@ -73,7 +75,6 @@
 .jpic-safuin:before { content: url(pictos/N_SAFUIN.svg); }
 .jpic-anpan:before { content: url(pictos/F_ANPAN.svg); }
 .jpic-koshien:before { content: url(pictos/L_KOSHIEN.svg); }
-.jpic-kanko ressha:before { content: url(pictos/T_KANKO RESSHA.svg); }
 .jpic-resutoran:before { content: url(pictos/F_RESUTORAN.svg); }
 .jpic-kiyomizu:before { content: url(pictos/L_KIYOMIZU.svg); }
 .jpic-hikoki:before { content: url(pictos/T_HIKOKI.svg); }
@@ -119,7 +120,6 @@
 .jpic-shonyudo:before { content: url(pictos/N_SHONYUDO.svg); }
 .jpic-suki:before { content: url(pictos/N_SUKI.svg); }
 .jpic-kimono:before { content: url(pictos/H_KIMONO.svg); }
-.jpic-nihon teien:before { content: url(pictos/H_NIHON TEIEN.svg); }
 .jpic-jimu:before { content: url(pictos/B_JIMU.svg); }
 .jpic-yakitori:before { content: url(pictos/F_YAKITORI.svg); }
 .jpic-shinnyu-kinshi:before { content: url(pictos/B_SHINNYU-KINSHI.svg); }
@@ -219,7 +219,6 @@
 .jpic-wagashi:before { content: url(pictos/F_WAGASHI.svg); }
 .jpic-tochaku:before { content: url(pictos/B_TOCHAKU.svg); }
 .jpic-hanami:before { content: url(pictos/N_HANAMI.svg); }
-.jpic- pakingu:before { content: url(pictos/T_ PAKINGU.svg); }
 .jpic-setsubi02:before { content: url(pictos/B_SETSUBI02.svg); }
 .jpic-shirakawa-go:before { content: url(pictos/L_SHIRAKAWA-GO.svg); }
 .jpic-ji-in:before { content: url(pictos/H_JI-IN.svg); }
@@ -248,6 +247,7 @@
 .jpic-heiwa-kinen:before { content: url(pictos/L_HEIWA-KINEN.svg); }
 .jpic-sushi:before { content: url(pictos/F_SUSHI.svg); }
 .jpic-ginko:before { content: url(pictos/B_GINKO.svg); }
+.jpic-pakingu:before { content: url(pictos/T_PAKINGU.svg); }
 .jpic-shobosho:before { content: url(pictos/B_SHOBOSHO.svg); }
 .jpic-oura-tenshudo:before { content: url(pictos/L_OURA-TENSHUDO.svg); }
 .jpic-keisatsu:before { content: url(pictos/B_KEISATSU.svg); }
