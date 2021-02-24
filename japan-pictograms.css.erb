@@ -1,7 +1,12 @@
 <% {'xs': '16px', 'sm': "24px", 'md': "32px", 'lg': "48px", 'xl': "64px"}.each do |size, pixels| -%>
-.jpic-<%= size -%> { width: <%= pixels -%>; height: <%= pixels -%>; display: inline-block; }
+.jpic-<%= size -%> {
+  font-size: <%= pixels -%>;
+  display: inline-block;
+  line-height: 1em;
+}
 <% end -%>
 
 <% pictos_hash[:pictos].each do |picto| -%>
-.jpic-<%= picto[:name]%>:before { content: url(<%= "#{pictos_hash[:root]}/#{picto[:path]}" -%>); }
+.jpic-<%= picto[:name]%> { background-image: url(<%= "#{pictos_hash[:root]}/#{picto[:path]}" -%>); }
+.jpic-<%= picto[:name]%>:before { content: '　'; }
 <% end -%>
