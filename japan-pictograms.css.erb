@@ -1,6 +1,7 @@
-<% {'xs': '16px', 'sm': "24px", 'md': "32px", 'lg': "48px", 'xl': "64px"}.each do |size, pixels| %>
-.jpic-<%= size %> { width: <%= pixels %>; height: <%= pixels %>; display: block; }
-<% end %>
-<% pictos_hash[:pictos].each do |picto| %>
-.jpic-<%= picto[:name]%>:before { content: url(<%= "#{pictos_hash[:root]}/#{picto[:path]}" %>); }
-<% end %>
+<% {'xs': '16px', 'sm': "24px", 'md': "32px", 'lg': "48px", 'xl': "64px"}.each do |size, pixels| -%>
+.jpic-<%= size -%> { width: <%= pixels -%>; height: <%= pixels -%>; display: block; }
+<% end -%>
+
+<% pictos_hash[:pictos].each do |picto| -%>
+.jpic-<%= picto[:name]%>:before { content: url(<%= "#{pictos_hash[:root]}/#{picto[:path]}" -%>); }
+<% end -%>

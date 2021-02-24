@@ -1,562 +1,281 @@
-
 .jpic-xs { width: 16px; height: 16px; display: block; }
-
 .jpic-sm { width: 24px; height: 24px; display: block; }
-
 .jpic-md { width: 32px; height: 32px; display: block; }
-
 .jpic-lg { width: 48px; height: 48px; display: block; }
-
 .jpic-xl { width: 64px; height: 64px; display: block; }
 
-
 .jpic-takushi:before { content: url(pictos/T_TAKUSHI.svg); }
-
 .jpic-ise-ebi:before { content: url(pictos/F_ISE-EBI.svg); }
-
 .jpic-bichi:before { content: url(pictos/N_BICHI.svg); }
-
 .jpic-sento:before { content: url(pictos/S_SENTO.svg); }
-
 .jpic-shijimi:before { content: url(pictos/F_SHIJIMI.svg); }
-
 .jpic-sawaruna:before { content: url(pictos/B_SAWARUNA.svg); }
-
 .jpic-rafuteingu:before { content: url(pictos/N_RAFUTEINGU.svg); }
-
 .jpic-matcha:before { content: url(pictos/F_MATCHA.svg); }
-
 .jpic-kakigori:before { content: url(pictos/F_KAKIGORI.svg); }
-
 .jpic-genseirin:before { content: url(pictos/N_GENSEIRIN.svg); }
-
 .jpic-tsukemono:before { content: url(pictos/F_TSUKEMONO.svg); }
-
 .jpic-rokuon-ji:before { content: url(pictos/L_ROKUON-JI.svg); }
-
 .jpic-onigiri:before { content: url(pictos/F_ONIGIRI.svg); }
-
 .jpic-tottori-sakyu:before { content: url(pictos/L_TOTTORI-SAKYU.svg); }
-
 .jpic-erebeta:before { content: url(pictos/B_EREBETA.svg); }
-
 .jpic-melon-pan:before { content: url(pictos/F_MELON-PAN.svg); }
-
 .jpic-suropu:before { content: url(pictos/B_SUROPU.svg); }
-
 .jpic-danshi-toire:before { content: url(pictos/B_DANSHI-TOIRE.svg); }
-
 .jpic-yakei:before { content: url(pictos/N_YAKEI.svg); }
-
 .jpic-toranjitto:before { content: url(pictos/B_TORANJITTO.svg); }
-
 .jpic-ryokan:before { content: url(pictos/S_RYOKAN.svg); }
-
 .jpic-machiawase-sitsu:before { content: url(pictos/B_MACHIAWASE-SITSU.svg); }
-
 .jpic-natto:before { content: url(pictos/F_NATTO.svg); }
-
 .jpic-akihabara:before { content: url(pictos/L_AKIHABARA.svg); }
-
 .jpic-minshuku:before { content: url(pictos/S_MINSHUKU.svg); }
-
 .jpic-fuasuto-fudo:before { content: url(pictos/F_FUASUTO-FUDO.svg); }
-
 .jpic-todaiji:before { content: url(pictos/L_TODAIJI.svg); }
-
 .jpic-tempura:before { content: url(pictos/F_TEMPURA.svg); }
-
 .jpic-taki:before { content: url(pictos/N_TAKI.svg); }
-
 .jpic-matsushima:before { content: url(pictos/L_MATSUSHIMA.svg); }
-
 .jpic-migigawa:before { content: url(pictos/B_MIGIGAWA.svg); }
-
 .jpic-nyuyoji:before { content: url(pictos/B_NYUYOJI.svg); }
-
 .jpic-joshi-toire:before { content: url(pictos/B_JOSHI-TOIRE.svg); }
-
 .jpic-dobutsuen:before { content: url(pictos/B_DOBUTSUEN.svg); }
-
 .jpic-umeboshi:before { content: url(pictos/F_UMEBOSHI.svg); }
-
 .jpic-himeji-jo:before { content: url(pictos/L_HIMEJI-JO.svg); }
-
 .jpic-furasshu-kinshi:before { content: url(pictos/B_FURASSHU-KINSHI.svg); }
-
 .jpic-washoku:before { content: url(pictos/F_WASHOKU.svg); }
-
 .jpic-myujiamu:before { content: url(pictos/B_MYUJIAMU.svg); }
-
 .jpic-rirakuzeshon:before { content: url(pictos/B_RIRAKUZESHON.svg); }
-
 .jpic-kaikei:before { content: url(pictos/B_KAIKEI.svg); }
-
 .jpic-petto-kinshi:before { content: url(pictos/B_PETTO-KINSHI.svg); }
-
 .jpic-genbaku-domu:before { content: url(pictos/L_GENBAKU-DOMU.svg); }
-
 .jpic-romen-densha:before { content: url(pictos/T_ROMEN-DENSHA.svg); }
-
 .jpic-koin-rokka:before { content: url(pictos/B_KOIN-ROKKA.svg); }
-
 .jpic-meiji-jingu:before { content: url(pictos/L_MEIJI-JINGU.svg); }
-
 .jpic-infuomeshon:before { content: url(pictos/B_INFUOMESHON.svg); }
-
 .jpic-sashimi:before { content: url(pictos/F_SASHIMI.svg); }
-
 .jpic-ropuei:before { content: url(pictos/T_ROPUEI.svg); }
-
 .jpic-tsuri:before { content: url(pictos/N_TSURI.svg); }
-
 .jpic-shokaki:before { content: url(pictos/B_SHOKAKI.svg); }
-
 .jpic-bokujo:before { content: url(pictos/N_BOKUJO.svg); }
-
 .jpic-kaidan:before { content: url(pictos/B_KAIDAN.svg); }
-
 .jpic-sakyu:before { content: url(pictos/N_SAKYU.svg); }
-
 .jpic-suteruna:before { content: url(pictos/B_SUTERUNA.svg); }
-
 .jpic-okonomiyaki:before { content: url(pictos/F_OKONOMIYAKI.svg); }
-
 .jpic-basu:before { content: url(pictos/T_BASU.svg); }
-
 .jpic-fuji-san:before { content: url(pictos/L_FUJI-SAN.svg); }
-
 .jpic-tokyo-tawa:before { content: url(pictos/L_TOKYO-TAWA.svg); }
-
 .jpic-machiawase:before { content: url(pictos/B_MACHIAWASE.svg); }
-
 .jpic-keiburuka:before { content: url(pictos/T_KEIBURUKA.svg); }
-
 .jpic-kabuki:before { content: url(pictos/H_KABUKI.svg); }
-
 .jpic-rentaka:before { content: url(pictos/T_RENTAKA.svg); }
-
 .jpic-togei:before { content: url(pictos/H_TOGEI.svg); }
-
 .jpic-sukiyaki:before { content: url(pictos/F_SUKIYAKI.svg); }
-
 .jpic-hinode:before { content: url(pictos/N_HINODE.svg); }
-
 .jpic-safuin:before { content: url(pictos/N_SAFUIN.svg); }
-
 .jpic-anpan:before { content: url(pictos/F_ANPAN.svg); }
-
 .jpic-koshien:before { content: url(pictos/L_KOSHIEN.svg); }
-
 .jpic-kanko ressha:before { content: url(pictos/T_KANKO RESSHA.svg); }
-
 .jpic-resutoran:before { content: url(pictos/F_RESUTORAN.svg); }
-
 .jpic-kiyomizu:before { content: url(pictos/L_KIYOMIZU.svg); }
-
 .jpic-hikoki:before { content: url(pictos/T_HIKOKI.svg); }
-
 .jpic-yajirushi04:before { content: url(pictos/B_YAJIRUSHI04.svg); }
-
 .jpic-hoteru:before { content: url(pictos/S_HOTERU.svg); }
-
 .jpic-budokan:before { content: url(pictos/L_BUDOKAN.svg); }
-
 .jpic-risaikuru:before { content: url(pictos/B_RISAIKURU.svg); }
-
 .jpic-kokuritsu-kyogijo:before { content: url(pictos/L_KOKURITSU-KYOGIJO.svg); }
-
 .jpic-yakatabune:before { content: url(pictos/T_YAKATABUNE.svg); }
-
 .jpic-shinkansen:before { content: url(pictos/T_SHINKANSEN.svg); }
-
 .jpic-yajirushi05:before { content: url(pictos/B_YAJIRUSHI05.svg); }
-
 .jpic-shuppatsu:before { content: url(pictos/B_SHUPPATSU.svg); }
-
 .jpic-samurai:before { content: url(pictos/H_SAMURAI.svg); }
-
 .jpic-noh:before { content: url(pictos/H_NOH.svg); }
-
 .jpic-yajirushi07:before { content: url(pictos/B_YAJIRUSHI07.svg); }
-
 .jpic-funen:before { content: url(pictos/B_FUNEN.svg); }
-
 .jpic-daisen-kofun:before { content: url(pictos/L_DAISEN-KOFUN.svg); }
-
 .jpic-shiro-ato:before { content: url(pictos/H_SHIRO-ATO.svg); }
-
 .jpic-bebikea-rumu:before { content: url(pictos/B_BEBIKEA-RUMU.svg); }
-
 .jpic-kuzu:before { content: url(pictos/B_KUZU.svg); }
-
 .jpic-pasuta:before { content: url(pictos/F_PASUTA.svg); }
-
 .jpic-hinoiri:before { content: url(pictos/N_HINOIRI.svg); }
-
 .jpic-izakaya:before { content: url(pictos/F_IZAKAYA.svg); }
-
 .jpic-kaiten-zushi:before { content: url(pictos/F_KAITEN-ZUSHI.svg); }
-
 .jpic-yajirushi06:before { content: url(pictos/B_YAJIRUSHI06.svg); }
-
 .jpic-hanabi:before { content: url(pictos/N_HANABI.svg); }
-
 .jpic-kaiseki-ryori:before { content: url(pictos/F_KAISEKI-RYORI.svg); }
-
 .jpic-yatai:before { content: url(pictos/F_YATAI.svg); }
-
 .jpic-kuraimingu:before { content: url(pictos/N_KURAIMINGU.svg); }
-
 .jpic-densha:before { content: url(pictos/T_DENSHA.svg); }
-
 .jpic-ba:before { content: url(pictos/F_BA.svg); }
-
 .jpic-shiretoko:before { content: url(pictos/L_SHIRETOKO.svg); }
-
 .jpic-toyosu-shijo:before { content: url(pictos/L_TOYOSU-SHIJO.svg); }
-
 .jpic-yajirushi02:before { content: url(pictos/B_YAJIRUSHI02.svg); }
-
 .jpic-dosoku:before { content: url(pictos/B_DOSOKU.svg); }
-
 .jpic-wasuremono:before { content: url(pictos/B_WASUREMONO.svg); }
-
 .jpic-maguro:before { content: url(pictos/F_MAGURO.svg); }
-
 .jpic-yajirushi03:before { content: url(pictos/B_YAJIRUSHI03.svg); }
-
 .jpic-nihonshu:before { content: url(pictos/F_NIHONSHU.svg); }
-
 .jpic-kokuritsu-koen:before { content: url(pictos/N_KOKURITSU-KOEN.svg); }
-
 .jpic-ninja:before { content: url(pictos/H_NINJA.svg); }
-
 .jpic-onsen:before { content: url(pictos/S_ONSEN.svg); }
-
 .jpic-shonyudo:before { content: url(pictos/N_SHONYUDO.svg); }
-
 .jpic-suki:before { content: url(pictos/N_SUKI.svg); }
-
 .jpic-kimono:before { content: url(pictos/H_KIMONO.svg); }
-
 .jpic-nihon teien:before { content: url(pictos/H_NIHON TEIEN.svg); }
-
 .jpic-jimu:before { content: url(pictos/B_JIMU.svg); }
-
 .jpic-yakitori:before { content: url(pictos/F_YAKITORI.svg); }
-
 .jpic-shinnyu-kinshi:before { content: url(pictos/B_SHINNYU-KINSHI.svg); }
-
 .jpic-kogen:before { content: url(pictos/N_KOGEN.svg); }
-
 .jpic-yajirushi01:before { content: url(pictos/B_YAJIRUSHI01.svg); }
-
 .jpic-koyo:before { content: url(pictos/N_KOYO.svg); }
-
 .jpic-ebi:before { content: url(pictos/F_EBI.svg); }
-
 .jpic-ginza:before { content: url(pictos/L_GINZA.svg); }
-
 .jpic-senbei:before { content: url(pictos/F_SENBEI.svg); }
-
 .jpic-ninsanpu:before { content: url(pictos/B_NINSANPU.svg); }
-
 .jpic-bonsai:before { content: url(pictos/H_BONSAI.svg); }
-
 .jpic-sado:before { content: url(pictos/H_SADO.svg); }
-
 .jpic-kaki-genkin:before { content: url(pictos/B_KAKI-GENKIN.svg); }
-
 .jpic-nara-koen:before { content: url(pictos/L_NARA-KOEN.svg); }
-
 .jpic-tonkatsu:before { content: url(pictos/F_TONKATSU.svg); }
-
 .jpic-sumo:before { content: url(pictos/H_SUMO.svg); }
-
 .jpic-kanen:before { content: url(pictos/B_KANEN.svg); }
-
 .jpic-ramen:before { content: url(pictos/F_RAMEN.svg); }
-
 .jpic-fushimi-inari:before { content: url(pictos/L_FUSHIMI-INARI.svg); }
-
 .jpic-uketorijo:before { content: url(pictos/B_UKETORIJO.svg); }
-
 .jpic-iyahon-gaido:before { content: url(pictos/B_IYAHON-GAIDO.svg); }
-
 .jpic-somen:before { content: url(pictos/F_SOMEN.svg); }
-
 .jpic-oden:before { content: url(pictos/F_ODEN.svg); }
-
 .jpic-kan:before { content: url(pictos/B_KAN.svg); }
-
 .jpic-mashu-ko:before { content: url(pictos/L_MASHU-KO.svg); }
-
 .jpic-monoreru:before { content: url(pictos/T_MONORERU.svg); }
-
 .jpic-orimono:before { content: url(pictos/H_ORIMONO.svg); }
-
 .jpic-zazen:before { content: url(pictos/H_ZAZEN.svg); }
-
 .jpic-kuroku:before { content: url(pictos/B_KUROKU.svg); }
-
 .jpic-yakkyoku:before { content: url(pictos/B_YAKKYOKU.svg); }
-
 .jpic-biru:before { content: url(pictos/F_BIRU.svg); }
-
 .jpic-musen-ran:before { content: url(pictos/B_MUSEN-RAN.svg); }
-
 .jpic-yuransen:before { content: url(pictos/T_YURANSEN.svg); }
-
 .jpic-kare-raisu:before { content: url(pictos/F_KARE-RAISU.svg); }
-
 .jpic-wadaiko:before { content: url(pictos/H_WADAIKO.svg); }
-
 .jpic-chikatetsu:before { content: url(pictos/T_CHIKATETSU.svg); }
-
 .jpic-tsutenkaku:before { content: url(pictos/L_TSUTENKAKU.svg); }
-
 .jpic-bebika:before { content: url(pictos/B_BEBIKA.svg); }
-
 .jpic-tenbositsu:before { content: url(pictos/B_TENBOSITSU.svg); }
-
 .jpic-asakusa:before { content: url(pictos/L_ASAKUSA.svg); }
-
 .jpic-kippu-uriba:before { content: url(pictos/B_KIPPU-URIBA.svg); }
-
 .jpic-tojo:before { content: url(pictos/B_TOJO.svg); }
-
 .jpic-suketo:before { content: url(pictos/N_SUKETO.svg); }
-
 .jpic-fugu:before { content: url(pictos/F_FUGU.svg); }
-
 .jpic-biyoshitsu:before { content: url(pictos/B_BIYOSHITSU.svg); }
-
 .jpic-kodo:before { content: url(pictos/H_KODO.svg); }
-
 .jpic-taiyaki:before { content: url(pictos/F_TAIYAKI.svg); }
-
 .jpic-baiten:before { content: url(pictos/B_BAITEN.svg); }
-
 .jpic-toire:before { content: url(pictos/B_TOIRE.svg); }
-
 .jpic-hambaga:before { content: url(pictos/F_HAMBAGA.svg); }
-
 .jpic-shochu:before { content: url(pictos/F_SHOCHU.svg); }
-
 .jpic-ashi-yu:before { content: url(pictos/S_ASHI-YU.svg); }
-
 .jpic-bin:before { content: url(pictos/B_BIN.svg); }
-
 .jpic-gasorin:before { content: url(pictos/B_GASORIN.svg); }
-
 .jpic-kapuseru:before { content: url(pictos/S_KAPUSERU.svg); }
-
 .jpic-kikyu:before { content: url(pictos/N_KIKYU.svg); }
-
 .jpic-shawa:before { content: url(pictos/B_SHAWA.svg); }
-
 .jpic-kissaten:before { content: url(pictos/F_KISSATEN.svg); }
-
 .jpic-domu:before { content: url(pictos/L_DOMU.svg); }
-
 .jpic-yaku-shima:before { content: url(pictos/L_YAKU-SHIMA.svg); }
-
 .jpic-hyakkaten:before { content: url(pictos/B_HYAKKATEN.svg); }
-
 .jpic-shimanto-gawa:before { content: url(pictos/L_SHIMANTO-GAWA.svg); }
-
 .jpic-esukareta03:before { content: url(pictos/B_ESUKARETA03.svg); }
-
 .jpic-kosokudoro:before { content: url(pictos/T_KOSOKUDORO.svg); }
-
 .jpic-kofun:before { content: url(pictos/H_KOFUN.svg); }
-
 .jpic-roten:before { content: url(pictos/S_ROTEN.svg); }
-
 .jpic-kamakura:before { content: url(pictos/L_KAMAKURA.svg); }
-
 .jpic-oshizukani:before { content: url(pictos/B_OSHIZUKANI.svg); }
-
 .jpic-satsuei-kinshi:before { content: url(pictos/B_SATSUEI-KINSHI.svg); }
-
 .jpic-jinja:before { content: url(pictos/H_JINJA.svg); }
-
 .jpic-shamisen:before { content: url(pictos/H_SHAMISEN.svg); }
-
 .jpic-hijoguchi:before { content: url(pictos/B_HIJOGUCHI.svg); }
-
 .jpic-takuhai:before { content: url(pictos/B_TAKUHAI.svg); }
-
 .jpic-suizokukan:before { content: url(pictos/B_SUIZOKUKAN.svg); }
-
 .jpic-takoyaki:before { content: url(pictos/F_TAKOYAKI.svg); }
-
 .jpic-unagi:before { content: url(pictos/F_UNAGI.svg); }
-
 .jpic-yakiniku:before { content: url(pictos/F_YAKINIKU.svg); }
-
 .jpic-esukareta02:before { content: url(pictos/B_ESUKARETA02.svg); }
-
 .jpic-haiboru:before { content: url(pictos/F_HAIBORU.svg); }
-
 .jpic-ryuhyo:before { content: url(pictos/N_RYUHYO.svg); }
-
 .jpic-tobikomi-kinshi:before { content: url(pictos/B_TOBIKOMI-KINSHI.svg); }
-
 .jpic-zeikan:before { content: url(pictos/B_ZEIKAN.svg); }
-
 .jpic-tofu:before { content: url(pictos/F_TOFU.svg); }
-
 .jpic-yubinkyoku:before { content: url(pictos/B_YUBINKYOKU.svg); }
-
 .jpic-suno-bodo:before { content: url(pictos/N_SUNO-BODO.svg); }
-
 .jpic-itsukushima:before { content: url(pictos/L_ITSUKUSHIMA.svg); }
-
 .jpic-kokyo:before { content: url(pictos/L_KOKYO.svg); }
-
 .jpic-shodo:before { content: url(pictos/H_SHODO.svg); }
-
 .jpic-yajirushi08:before { content: url(pictos/B_YAJIRUSHI08.svg); }
-
 .jpic-pettobotoru:before { content: url(pictos/B_PETTOBOTORU.svg); }
-
 .jpic-sukai-tsuri:before { content: url(pictos/L_SUKAI-TSURI.svg); }
-
 .jpic-horyu-ji:before { content: url(pictos/L_HORYU-JI.svg); }
-
 .jpic-ikebana:before { content: url(pictos/H_IKEBANA.svg); }
-
 .jpic-rentasaikuru:before { content: url(pictos/T_RENTASAIKURU.svg); }
-
 .jpic-esukareta01:before { content: url(pictos/B_ESUKARETA01.svg); }
-
 .jpic-hidarigawa:before { content: url(pictos/B_HIDARIGAWA.svg); }
-
 .jpic-wagashi:before { content: url(pictos/F_WAGASHI.svg); }
-
 .jpic-tochaku:before { content: url(pictos/B_TOCHAKU.svg); }
-
 .jpic-hanami:before { content: url(pictos/N_HANAMI.svg); }
-
 .jpic- pakingu:before { content: url(pictos/T_ PAKINGU.svg); }
-
 .jpic-setsubi02:before { content: url(pictos/B_SETSUBI02.svg); }
-
 .jpic-shirakawa-go:before { content: url(pictos/L_SHIRAKAWA-GO.svg); }
-
 .jpic-ji-in:before { content: url(pictos/H_JI-IN.svg); }
-
 .jpic-minato:before { content: url(pictos/B_MINATO.svg); }
-
 .jpic-nabe:before { content: url(pictos/F_NABE.svg); }
-
 .jpic-juden-kona:before { content: url(pictos/B_JUDEN-KONA.svg); }
-
 .jpic-yacho:before { content: url(pictos/N_YACHO.svg); }
-
 .jpic-hashiruna:before { content: url(pictos/B_HASHIRUNA.svg); }
-
 .jpic-kombu:before { content: url(pictos/F_KOMBU.svg); }
-
 .jpic-inryosui:before { content: url(pictos/B_INRYOSUI.svg); }
-
 .jpic-izumo-taisha:before { content: url(pictos/L_IZUMO-TAISHA.svg); }
-
 .jpic-washi:before { content: url(pictos/H_WASHI.svg); }
-
 .jpic-seto-ohashi:before { content: url(pictos/L_SETO-OHASHI.svg); }
-
 .jpic-setsubi03:before { content: url(pictos/B_SETSUBI03.svg); }
-
 .jpic-chuson-ji:before { content: url(pictos/L_CHUSON-JI.svg); }
-
 .jpic-sumaho-kinshi:before { content: url(pictos/B_SUMAHO-KINSHI.svg); }
-
 .jpic-joba:before { content: url(pictos/N_JOBA.svg); }
-
 .jpic-sukyuba:before { content: url(pictos/N_SUKYUBA.svg); }
-
 .jpic-herikoputa:before { content: url(pictos/T_HERIKOPUTA.svg); }
-
 .jpic-ryokinjo:before { content: url(pictos/T_RYOKINJO.svg); }
-
 .jpic-kani:before { content: url(pictos/F_KANI.svg); }
-
 .jpic-setsubi01:before { content: url(pictos/B_SETSUBI01.svg); }
-
 .jpic-koban:before { content: url(pictos/B_KOBAN.svg); }
-
 .jpic-denwa:before { content: url(pictos/B_DENWA.svg); }
-
 .jpic-ise-jingu:before { content: url(pictos/L_ISE-JINGU.svg); }
-
 .jpic-heiwa-kinen:before { content: url(pictos/L_HEIWA-KINEN.svg); }
-
 .jpic-sushi:before { content: url(pictos/F_SUSHI.svg); }
-
 .jpic-ginko:before { content: url(pictos/B_GINKO.svg); }
-
 .jpic-shobosho:before { content: url(pictos/B_SHOBOSHO.svg); }
-
 .jpic-oura-tenshudo:before { content: url(pictos/L_OURA-TENSHUDO.svg); }
-
 .jpic-keisatsu:before { content: url(pictos/B_KEISATSU.svg); }
-
 .jpic-mokko:before { content: url(pictos/H_MOKKO.svg); }
-
 .jpic-jidohambaiki:before { content: url(pictos/B_JIDOHAMBAIKI.svg); }
-
 .jpic-jitensha-kinshi:before { content: url(pictos/B_JITENSHA-KINSHI.svg); }
-
 .jpic-kyampu:before { content: url(pictos/N_KYAMPU.svg); }
-
 .jpic-byoin:before { content: url(pictos/B_BYOIN.svg); }
-
 .jpic-fuoto-supotto:before { content: url(pictos/B_FUOTO-SUPOTTO.svg); }
-
 .jpic-misoshiru:before { content: url(pictos/F_MISOSHIRU.svg); }
-
 .jpic-soba:before { content: url(pictos/F_SOBA.svg); }
-
 .jpic-kosho:before { content: url(pictos/N_KOSHO.svg); }
-
 .jpic-kokugikan:before { content: url(pictos/L_KOKUGIKAN.svg); }
-
 .jpic-harajuku:before { content: url(pictos/L_HARAJUKU.svg); }
-
 .jpic-kyusokujo:before { content: url(pictos/B_KYUSOKUJO.svg); }
-
 .jpic-yoshinogari:before { content: url(pictos/L_YOSHINOGARI.svg); }
-
 .jpic-wagyu:before { content: url(pictos/F_WAGYU.svg); }
-
 .jpic-uketsuke:before { content: url(pictos/B_UKETSUKE.svg); }
-
 .jpic-maiko:before { content: url(pictos/H_MAIKO.svg); }
-
 .jpic-konbini:before { content: url(pictos/B_KONBINI.svg); }
-
 .jpic-kyasshu:before { content: url(pictos/B_KYASSHU.svg); }
-
 .jpic-fueri:before { content: url(pictos/T_FUERI.svg); }
-
 .jpic-torekkingu:before { content: url(pictos/N_TOREKKINGU.svg); }
-
 .jpic-sabisueria:before { content: url(pictos/T_SABISUERIA.svg); }
-
 .jpic-saikuringu:before { content: url(pictos/T_SAIKURINGU.svg); }
-
 .jpic-inshoku-kinshi:before { content: url(pictos/B_INSHOKU-KINSHI.svg); }
-
 .jpic-jinrikisha:before { content: url(pictos/T_JINRIKISHA.svg); }
-
 .jpic-udon:before { content: url(pictos/F_UDON.svg); }
-
 .jpic-kin-en:before { content: url(pictos/B_KIN-EN.svg); }
-
 .jpic-matsuri:before { content: url(pictos/H_MATSURI.svg); }
-
 .jpic-karaoke:before { content: url(pictos/B_KARAOKE.svg); }
-

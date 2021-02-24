@@ -7,17 +7,13 @@
   <title>Document</title>
 </head>
 <body>
-  <% pictos_hash[:pictos].each do |picto| %>
-    <div>
-      <h2><%= picto[:name] %></h2>
-      <% ['xs', 'sm', 'md', 'lg', 'xl'].each do |size| %>
-        <span class="jpic-<%= size %> jpic-<%= picto[:name] %>"></span>
-      <% end %>
-    </div>
-  <% end %>
-  <span class="jpic-md jpic-takushi"></span>
-  <span class="jpic-lg jpic-takushi"></span>
-  <span class="jpic-xl jpic-takushi"></span>
-  <span class="jpic-xs jpic-takushi"></span>
+<% pictos_hash[:pictos].each do |picto| -%>
+  <div>
+    <h2><%= picto[:name].capitalize -%></h2>
+  <% ['xs', 'sm', 'md', 'lg', 'xl'].each do |size| -%>
+    <span class="jpic-<%= size -%> jpic-<%= picto[:name] -%>"></span>
+  <% end -%>
+  </div>
+<% end -%>
 </body>
 </html>

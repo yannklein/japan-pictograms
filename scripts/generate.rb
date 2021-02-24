@@ -10,6 +10,6 @@ def generate(picto_path, template_path, output_path)
     { name: path.gsub(/(\w_|.svg)/, '').downcase, path: path }
   end
   pictos_hash = { root: picto_path, pictos: pictos }
-  generated = ERB.new(template).result(pictos_hash.instance_eval { binding })
+  generated = ERB.new(template, nil, '-').result(pictos_hash.instance_eval { binding })
   File.write(output_path, generated)
 end
