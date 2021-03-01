@@ -1,12 +1,28 @@
-<% {'xs': '16px', 'sm': "24px", 'md': "32px", 'lg': "48px", 'xl': "64px"}.each do |size, pixels| -%>
-.jpic-<%= size -%> {
-  font-size: <%= pixels -%>;
-  display: inline-block;
-  line-height: 1em;
+@font-face {
+  font-family: 'Japan Pictograms';
+  src:  url('fonts/fonticon.eot?12ugzt');
+  src:  url('fonts/fonticon.eot?12ugzt#iefix') format('embedded-opentype'),
+    url('fonts/fonticon.ttf?12ugzt') format('truetype'),
+    url('fonts/fonticon.woff?12ugzt') format('woff'),
+    url('fonts/fonticon.svg?12ugzt#fonticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-<% end -%>
 
-<% pictos_hash[:pictos].each do |picto| -%>
-.jpic-<%= picto[:name]%> { background-image: url(<%= "#{pictos_hash[:root]}/#{picto[:path]}" -%>); }
-.jpic-<%= picto[:name]%>:before { content: '　'; }
+.jpic {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Japan Pictograms' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+<% pictos.sort_by {|picto| picto[:name]}.each_with_index do |picto, index| -%>
+.jpic-<%= picto[:name]%>:before { content: '<%= picto[:unicode] %>'; }
 <% end -%>

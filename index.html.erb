@@ -42,7 +42,7 @@
     <div class="row justify-content-center">
       <div class="col-12 col-lg-8">
         <div class="p-5 mb-5 border-bottom d-flex align-items-center justify-content-center">
-          <span class="jpic-lg jpic-jinja"></span>
+          <span class="jpic jpic-jinja" style="font-size: 64px"></span>
           <h1 class="m-0 ms-4">Japan Pictograms on your Website</h1>
         </div>
         <p>The pictograms of <a class="link-secondary text-decoration-none" href="https://experience-japan.info/en/">Experience Japan Pictograms</a>, made easy to use for your website.<br/> Provided by <a href="https://www.yannklein.me/" class="link-secondary text-decoration-none" >Yann Klein</a>.</p>
@@ -57,26 +57,23 @@
         <p>Add this <code>link</code> to your HTML file <code>&lt;head&gt;</code>:</p>
           <pre class="border rounded p-3"><code>&ltlink rel="stylesheet" href="https://yannklein.github.io/japan-pictograms/japan-pictograms.css"&gt;</code></pre>
         <h2 id="usage">Usage</h2>
-        <p>Add icons following this pattern, refer to the below table for the SIZE and NAME:</p>
-          <pre class="border rounded p-3"><code>&ltspan class="jpic-SIZE jpic-NAME"&gt&lt/span&gt;</code></pre>
+        <p>Add icons following this pattern, refer to the below table for the NAME:</p>
+          <pre class="border rounded p-3"><code>&ltspan class="jpic jpic-NAME"&gt&lt/span&gt;</code></pre>
 
-        <h3 id="size" >Sizes</h3>
+        <h3 id="size" >Size and color</h3>
+        <p>Japan Pictograms is a font, use normal CSS font properties to change its size, color and other font characteristics.</p>
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">SIZE</th>
               <th scope="col">Sample code</th>
               <th scope="col">Result</th>
             </tr>
           </thead>
           <tbody>
-            <% ['xs', 'sm', 'md', 'lg', 'xl'].each do |size| -%>
             <tr>
-              <td><%= size %></td>
-              <td><code>&lt;span class="jpic-<%= size -%> jpic-<%= pictos[0][:name] -%>"&gt;&lt;/span&gt;</code></span></td>
-              <td><span class="jpic-<%= size -%> jpic-<%= pictos[0][:name] -%>"></span></td>
+              <td><code>&lt;span class="jpic jpic-ise-jingu" style="font-size: 64px; color: red"&gt;&lt;/span&gt;</code></span></td>
+              <td><span class="jpic jpic-ise-jingu" style="font-size: 64px; color: red"></span></td>
             </tr>
-            <% end -%>
           </tbody>
         </table>
 
@@ -90,11 +87,11 @@
             </tr>
           </thead>
           <tbody>
-            <% pictos_hash[:pictos].each do |picto| -%>
+            <% pictos.each do |picto| -%>
             <tr>
               <td><%= picto[:name] %></td>
-              <td><code>&lt;span class="jpic-md jpic-<%= picto[:name] -%>"&gt;&lt;/span&gt;</code></span></td>
-              <td><span class="jpic-md jpic-<%= picto[:name] -%>"></span></td>
+              <td><code>&lt;span class="jpic jpic-<%= picto[:name] -%>"&gt;&lt;/span&gt;</code></span></td>
+              <td><span class="jpic jpic-<%= picto[:name] -%>" style="font-size: 32px;"></span></td>
             </tr>
             <% end -%>
           </tbody>
